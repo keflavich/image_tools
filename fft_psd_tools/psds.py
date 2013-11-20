@@ -9,7 +9,7 @@ try:
 except ImportError:
     pyplotOK = False
 from correlate2d import correlate2d
-from AG_image_tools.radialprofile import azimuthalAverageBins,radialAverageBins
+from image_tools.radialprofile import azimuthalAverageBins,radialAverageBins
 
 def hanning2d(M, N):
     """

@@ -1,5 +1,5 @@
 import numpy as np
-from AG_image_tools.downsample import downsample as downsample_2d
+from image_tools.downsample import downsample as downsample_2d
 from convolve_nd import convolvend as convolve
 
 def smooth(image, kernelwidth=3, kerneltype='gaussian', trapslope=None,

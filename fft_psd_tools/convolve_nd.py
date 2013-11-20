@@ -1,3 +1,7 @@
+"""
+ND fft convolution with NaN masking:
+    This has been merged into astropy, so it's probably best to use that version
+"""
 import numpy as np
 import warnings
 #from guppy import hpy
