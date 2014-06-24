@@ -58,7 +58,7 @@ def downsample_1d(myarr,factor,estimator=mean):
     return dsarr
 
 try:
-    def downsample_axis(myarr, factor, axis, estimator=np.nanmean, truncate=False):
+    def downsample_axis(myarr, factor, axis, estimator=numpy.nanmean, truncate=False):
         """
         Downsample an ND array by averaging over *factor* pixels along an axis.
         Crops right side if the shape is not a multiple of factor.
