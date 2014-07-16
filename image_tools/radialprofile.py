@@ -61,7 +61,7 @@ def azimuthalAverage(image, center=None, stddev=False, returnradii=False, return
     # how many per bin (i.e., histogram)?
     # there are never any in bin 0, because the lowest index returned by digitize is 1
     #nr = np.bincount(whichbin)[1:]
-    nr = np.histogram(r,bins)[0]
+    nr = np.histogram(r, bins, weights=mask.astype('int'))[0]
 
     # recall that bins are from 1 to nbins (which is expressed in array terms by arange(nbins)+1 or xrange(1,nbins+1) )
     # radial_prof.shape = bin_centers.shape
