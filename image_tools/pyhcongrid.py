@@ -10,6 +10,10 @@ try:
 
     def hcongrid(image, header1, header2, **kwargs):
         """
+        This now exists in FITS_tools:
+        https://github.com/keflavich/FITS_tools/blob/master/FITS_tools/hcongrid.py
+        and is better maintained there
+
         Interpolate an image from one FITS header onto another
 
         kwargs will be passed to `scipy.ndimage.map_coordinates`

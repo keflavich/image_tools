@@ -93,8 +93,8 @@ try:
             else:
                 newshape = list(myarr.shape)
                 newshape[axis] = (factor - xs % int(factor))
-                extension = np.empty(newshape) * np.nan
-                crarr = np.concatenate((myarr,extension), axis=axis)
+                extension = numpy.empty(newshape) * numpy.nan
+                crarr = numpy.concatenate((myarr,extension), axis=axis)
         else:
             crarr = myarr
 
@@ -107,7 +107,7 @@ try:
 
         # The extra braces here are crucial: We're adding an extra dimension so we
         # can average across it!
-        stacked_array = np.concatenate([[crarr[makeslice(ii)]] for ii in range(factor)])
+        stacked_array = numpy.concatenate([[crarr[makeslice(ii)]] for ii in range(factor)])
 
         dsarr = estimator(stacked_array, axis=0)
         return dsarr
