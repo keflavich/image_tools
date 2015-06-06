@@ -51,7 +51,7 @@ def downsample_1d(myarr,factor,estimator=mean):
             something else if you want a different estimator
             (e.g., downsampling error: you want to sum & divide by sqrt(n))
     """
-    xs = myarr.shape
+    xs = myarr.size
     crarr = myarr[:xs-(xs % int(factor))]
     dsarr = estimator( numpy.concatenate([[crarr[i::factor] 
         for i in range(factor)] ]),axis=0)
