@@ -7,7 +7,7 @@ Submodules
 image_tools.deconv module
 -------------------------
 
-.. automodule:: image_tools.deconv
+.. automodapi:: image_tools.deconv
     :members:
     :undoc-members:
     :show-inheritance:
@@ -15,7 +15,7 @@ image_tools.deconv module
 image_tools.downsample module
 -----------------------------
 
-.. automodule:: image_tools.downsample
+.. automodapi:: image_tools.downsample
     :members:
     :undoc-members:
     :show-inheritance:
@@ -23,7 +23,7 @@ image_tools.downsample module
 image_tools.drizzle module
 --------------------------
 
-.. automodule:: image_tools.drizzle
+.. automodapi:: image_tools.drizzle
     :members:
     :undoc-members:
     :show-inheritance:
@@ -31,7 +31,7 @@ image_tools.drizzle module
 image_tools.pyhcongrid module
 -----------------------------
 
-.. automodule:: image_tools.pyhcongrid
+.. automodapi:: image_tools.pyhcongrid
     :members:
     :undoc-members:
     :show-inheritance:
@@ -39,7 +39,7 @@ image_tools.pyhcongrid module
 image_tools.radialprofile module
 --------------------------------
 
-.. automodule:: image_tools.radialprofile
+.. automodapi:: image_tools.radialprofile
     :members:
     :undoc-members:
     :show-inheritance:
@@ -48,7 +48,7 @@ image_tools.radialprofile module
 Module contents
 ---------------
 
-.. automodule:: image_tools
+.. automodapi:: image_tools
     :members:
     :undoc-members:
     :show-inheritance:
