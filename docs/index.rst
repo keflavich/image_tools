@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   image_tools
+   fft_psd_tools
 
 
 Indices and tables
